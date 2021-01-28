@@ -1,0 +1,39 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vmName": {
+            "value": "nome-da-vm"
+        },
+        "adminUsername": {
+            "value": "admin"
+        },
+        "authenticationType": {
+            "value": "password"
+        },
+        "adminPasswordOrKey": {
+            "value": "admin123"
+        },
+        "dnsLabelPrefix": {
+            "value": "prefixo-dns"
+        },
+        "ubuntuOSVersion": {
+            "value": "18.04-LTS"
+        },
+        "location": {
+            "value": "eastus2"
+        },
+        "VmSize": {
+            "value": "Standard_B2s"
+        },
+        "virtualNetworkName": {
+            "value": "minha-virtual-net"
+        },
+        "subnetName": {
+            "value": "minha-subnet"
+        },
+        "networkSecurityGroupName": {
+            "value": "meu-security-group"
+        }
+    }
+}
