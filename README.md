@@ -1,4 +1,4 @@
-# AZ-204ARM Template
+# AZ-204 ARM Template
 
 Exemplo de utilização de um Azure Resource Manager Template para publicação de um conjunto de recursos através do Azure CLI.
 
